@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+* {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+section h1 {
+  font-size: 6rem;
+  font-weight: 400;
+}
+
+section p {
+  font-size: 2rem;
+}
+
+section button {
+  background-color: transparent;
+  padding: 0.8rem 1.5rem;
+  border: 1px solid black;
+  border-radius: 20px;
+  margin-right: 0.5rem;
+  transition: all 0.3s;
+}
+section button:hover {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+* {
+  color: #f4f4f4;
+}
+
+nav {
+  background-color: black;
+  color: white;
+}
+
+section {
+  background-color: #640fc5;
+}
+
+nav {
+  padding: 1.5rem 4rem;
+}
+
+nav ul li {
+  margin-left: 2rem;
+}
+
+section {
+  padding: 1.5rem 4rem;
+}
+
+section h1 {
+  margin-block: 2rem;
+}
+
+section p {
+  margin-block: 2rem;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  text-decoration: none;
+}
+
+main div {
+  display: flex;
+  justify-content: space-between;
+}
+
+section > div {
+  display: flex;
+}
+
+section img {
+  width: 100%;
+}
+
+section div:last-child {
+  margin: 2rem;
+}
+
+/*# sourceMappingURL=style.css.map */

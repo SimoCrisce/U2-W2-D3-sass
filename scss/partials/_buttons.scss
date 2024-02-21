@@ -1,0 +1,17 @@
+section button {
+  background-color: transparent;
+  padding: 0.8rem 1.5rem;
+  border: 1px solid black;
+  border-radius: 20px;
+  margin-right: 0.5rem;
+  transition: all 0.3s;
+
+  &:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s;
+  }
+}
+
+$colors: #0e6cff, #ff8700, #4caf50;

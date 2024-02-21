@@ -1,0 +1,42 @@
+@import "./partials/reset";
+@import "./partials/fonts";
+@import "./partials/buttons";
+@import "./partials/animations";
+@import "./partials/colors";
+@import "./partials/spacings";
+@import "./partials/mixins";
+
+* {
+  box-sizing: border-box;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  text-decoration: none;
+}
+
+main div {
+  display: flex;
+  justify-content: space-between;
+}
+
+section > div {
+  display: flex;
+}
+
+section img {
+  width: 100%;
+}
+
+section div:last-child {
+  margin: 2rem;
+}

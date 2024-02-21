@@ -1,0 +1,16 @@
+* {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+@mixin title-big {
+  font-size: 6rem;
+  font-weight: 400;
+}
+
+section h1 {
+  @include title-big;
+}
+
+section p {
+  font-size: 2rem;
+}
